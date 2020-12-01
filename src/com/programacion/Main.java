@@ -14,7 +14,7 @@ public class Main {
         Singleton miUnicaInstancia=Singleton.getInstance();
         //rellenamos los atributos
         miUnicaInstancia.setEdad(20);
-        miUnicaInstancia.setNombre("Pepe");
+        miUnicaInstancia.setNombre("Brais");
 
         //creamos otro objeto singleton
         //como la unica manera es con getInstance(), este método se encargara
@@ -24,5 +24,6 @@ public class Main {
         // comprobar con el debug que los objetos:
         //miUnicaInstancia y otraInstanciaSeraLaMisma son el mismo
         otraInstanciaSeraLaMisma.setEdad(34);
+        otraInstanciaSeraLaMisma.setNombre("Manu");
     }
 }
